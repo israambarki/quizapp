@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:shape="rectangle"
+    >
+<!--    stroke eli deyer bil textview el cadre -->
+    <stroke
+       android:width="4dp"
+        android:color="@color/design_default_color_primary"
+
+        />
+
+<!--    if we want a white background color we use solid-->
+    <solid
+        android:color="@color/white"
+        />
+    <corners
+        android:radius="25dp"
+        />
+
+
+
+</shape>
